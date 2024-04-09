@@ -1,0 +1,9 @@
+x = float(input("Escriba el valor: "))
+if (x%2 == 0):
+    print ("Su numero es divisible entre dos.")
+else:
+    print ("Su numero no es divisible entre dos.")
+    if (x%3 == 0):
+        print ("Su numero es divisible entre tres.")
+    else:
+        print ("Su numero no es divisible entre tres.")

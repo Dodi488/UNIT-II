@@ -1,0 +1,5 @@
+x = float(input("Escriba su valor: "))
+if x > 0:
+    print ("Su valor es positivo.")
+elif x < 0:
+    print ("Su valor es negativo.")
